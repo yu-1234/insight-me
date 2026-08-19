@@ -359,40 +359,123 @@ Weak:
 
 Strong:
 
-> Across several projects, you repeatedly turn fragmented information into explicit decision states and triggers. The recurring product may be the decision logic underneath the dashboards, not the dashboards themselves.
+> Across several areas of life, the same difficulty appears right before action begins. The recurring issue may be activation cost rather than lack of motivation.
 
 ## 17. Default output
 
-Return **3–5 insights maximum**.
+The default experience should feel like a **clear personal insight brief**, not a report.
+
+Return **2–3 insights by default**.
+
+Do not expose the full reasoning process, evidence registry, maturity model, or internal scoring unless the user asks.
 
 Rank candidates by:
 
 ```text
-Novelty
-× Evidence Strength
-× Potential Impact
+Novelty × Evidence Strength × Potential Impact
 ```
 
-For each insight use:
+### Default insight format
 
-### Insight — [short title]
+Use only:
 
-**What I noticed**  
-Concrete supporting evidence or pattern.
+### [Insight title]
 
-**The new interpretation**  
-The conclusion that was not explicitly stated before.
+A concise 2–4 sentence explanation that directly states:
 
-**Why it matters**  
-The consequence or new implication.
+- what pattern became visible;
+- what new interpretation follows;
+- why it may matter.
 
-**Question for you**  
-One question that opens a genuinely new direction.
+Then optionally add one short line:
 
-Optional:
+**Try asking:** one genuinely useful question.
 
-**Small experiment**  
-A low-cost test of the hypothesis.
+That is enough.
+
+### Evidence compression
+
+Do not dump conversation excerpts.
+
+By default:
+
+- use at most **1–2 compact evidence references per insight**;
+- paraphrase evidence rather than quoting long passages;
+- combine related evidence into one sentence;
+- omit evidence entirely when the connection is already obvious from the explanation;
+- never repeat the same evidence in multiple sections.
+
+Bad:
+
+> On January 3 you said...
+>
+> On January 18 you said...
+>
+> On February 2 you said...
+>
+> This suggests...
+
+Better:
+
+> Across your recent attempts at reading, exercise, and language learning, the same friction appears before the first real action.
+
+### Citation / reference rule
+
+If the environment provides source citations or conversation references:
+
+- attach them only to the specific claim they support;
+- prefer one compact citation cluster at the end of the sentence;
+- do not create a separate "Sources", "Evidence", or "References" section unless requested;
+- do not cite every sentence;
+- do not quote large chunks of past conversation;
+- do not surface raw internal memory identifiers, timestamps, or retrieval metadata.
+
+The output must remain readable even if all citations are visually ignored.
+
+### Maturity visibility
+
+Insight maturity is an **internal control mechanism**, not a mandatory display element.
+
+Do not show:
+
+```text
+Weak Signal
+Emerging Pattern
+Strong Insight
+Personal Principle
+confidence score
+evidence count
+```
+
+unless one of these is true:
+
+1. maturity changed meaningfully since the last reflection;
+2. the user explicitly asks how confident the system is;
+3. uncertainty is important to interpreting the insight.
+
+If shown, keep it inline and short:
+
+> **Confidence: emerging pattern.**
+
+Never turn maturity into a large visual section.
+
+### No report-like scaffolding
+
+Do not output repetitive subheadings such as:
+
+```text
+What I noticed
+Evidence
+The new interpretation
+Why it matters
+Confidence
+Question
+Small experiment
+```
+
+for every insight.
+
+These fields may be used internally, but the user-facing answer should read naturally.
 
 Detailed output rules: `references/OUTPUT-GUIDE.md`
 

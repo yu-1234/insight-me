@@ -2,30 +2,26 @@
 
 ## Input history
 
-The user repeatedly says the product should be sold quickly.
+The user says they want more free time.
 
-Over several iterations, the product expands to include:
+Over several weeks, the user repeatedly adds:
 
-- CRM
-- inventory
-- finance
-- logistics
-- OCR
-- payroll
-- dashboards
-- workflow
-- supplier management
+- optional meetings
+- subscriptions
+- hobbies
+- side activities
+- social plans
 
 ## Expected behavior
 
-Detect tension between speed-to-market and expanding scope.
+Detect tension between the stated goal and accumulated commitments.
 
-Do not automatically declare either side wrong.
+Do not automatically say the user must cancel everything.
 
-Ask a question that exposes the underlying product choice.
+Ask a question that exposes the underlying choice architecture.
 
 ## Failure conditions
 
-- merely says "the product is complex"
-- gives a long implementation plan
-- assumes the user must remove features
+- merely says "you are busy"
+- gives a long productivity plan
+- assumes the user dislikes the added commitments

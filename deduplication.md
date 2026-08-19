@@ -2,13 +2,13 @@
 
 ## Existing insight
 
-> The user repeatedly reduces ambiguity by introducing explicit classification systems.
+> The user becomes more consistent when the first action is tiny and obvious.
 
 ## New evidence
 
-- risk grading
-- product grading
-- sales ranking
+- meal preparation works better when ingredients are already visible
+- household paperwork gets done when the document is already open
+- stretching happens more often when the mat is left out
 
 ## Expected behavior
 

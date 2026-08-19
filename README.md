@@ -15,7 +15,7 @@ Its core question is:
 ## What it looks for
 
 - Hidden recurring patterns
-- Unexpected connections across projects
+- Unexpected connections across different parts of life
 - Contradictions between goals and behavior
 - Unconscious problem-solving methods
 - Missing implications of past decisions
@@ -31,26 +31,28 @@ Its core question is:
 
 ### Memory
 
-> You previously built a customer segmentation system.
+> You previously said you wanted to read more.
 
 ### Reuse
 
-> You could reuse customer segmentation in another project.
+> You could reuse the same habit tracker you used for exercise.
 
 ### insight-me
 
-> Customer segmentation, opportunity funnels, relationship graphs, churn alerts, and 360° profiles may be different dimensions of one underlying **Customer State Model**.
+> Your reading, exercise, and language-learning attempts all seem to work better when they have a visible trigger, a tiny starting action, and immediate feedback. The deeper pattern may be that you do not struggle with motivation as much as with **activation cost**.
 
 That creates a new direction:
 
 ```text
-Customer
-├── Value State
-├── Relationship State
-├── Opportunity State
-├── Risk State
-├── Engagement State
-└── Lifecycle State
+Desired behavior
+↓
+Trigger
+↓
+Tiny first action
+↓
+Immediate feedback
+↓
+Repeat
 ```
 
 The goal is not to remember more.
@@ -106,7 +108,7 @@ insight-me/
 │       ├── OUTPUT-GUIDE.md
 │       └── EXAMPLES.md
 └── tests/
-    ├── cross-project-connection.md
+    ├── cross-context-connection.md
     ├── contradiction-detection.md
     ├── deduplication.md
     ├── maturity-evolution.md
@@ -120,8 +122,8 @@ Typical invocations:
 ```text
 /insight-me
 /insight-me last 30 days
-/insight-me career
-/insight-me product ideas
+/insight-me habits
+/insight-me decisions
 /insight-me what am I missing?
 /insight-me challenge my thinking
 /insight-me connect things I've discussed separately
@@ -141,7 +143,7 @@ Default time window: **the most recent 90 days**, unless the user specifies anot
 6. Track insight maturity over time.
 7. Actively search for contradictory evidence.
 8. Prefer 3–5 high-value insights over long lists.
-9. Do not overgeneralize work patterns into personality claims.
+9. Do not overgeneralize narrow patterns into personality claims.
 10. The ideal reaction is: **“I hadn't thought about it that way.”**
 
 ## License

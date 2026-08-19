@@ -1,68 +1,45 @@
 # Examples
 
+All examples in this file are intentionally generic and life-oriented.
+
 ## Example 1 — Summary vs Insight
 
 Past experiences:
 
 ```text
-Customer segmentation
-Opportunity funnel
-Relationship graph
-Churn alert
-360° customer profile
+Wanted to read more
+Started exercising several times
+Tried language learning
+Often built detailed plans
+Stopped after the initial enthusiasm
 ```
 
 ### Bad
 
-> You have built several customer-analysis tools.
+> You have tried several self-improvement habits.
 
 Why bad:
 
 - summary only
 - no new connection
-- no new implication
+- no explanation
 
 ### Better
 
-> These systems could potentially be integrated.
+> You could use the same habit tracker for all three.
 
 Why still weak:
 
-- obvious
-- solution-first
-- does not explain the deeper common structure
+- simple reuse
+- does not explain why attempts succeed or fail
 
 ### Good insight
 
-> These five projects may not actually be five separate tools. Each describes a different dimension of one underlying object: **customer state**.
-
-Possible model:
-
-```text
-Customer
-├── Value State
-├── Relationship State
-├── Opportunity State
-├── Risk State
-├── Engagement State
-└── Lifecycle State
-```
-
-Second-order implication:
-
-```text
-Customer State
-↓
-State Change
-↓
-Trigger
-↓
-Recommended Action
-```
+> Across reading, exercise, and language learning, your attempts seem to last longer when there is a tiny first step and immediate feedback. The recurring issue may be **activation cost**, not lack of motivation.
 
 Question:
 
-> If every customer had one dynamically changing state model, which decisions could be triggered automatically without requiring a person to inspect five separate dashboards?
+> What would happen if every new habit had to begin with an action that takes less than two minutes?
 
 ---
 
@@ -72,51 +49,48 @@ Past evidence:
 
 ```text
 Goal:
-launch a product quickly
+have more free time
 
 Behavior:
-continuously adding finance, inventory, CRM, OCR,
-salary, logistics, dashboard and workflow modules
+keeps accepting optional plans, subscriptions, projects, and commitments
 ```
 
 Weak output:
 
-> The product has many features.
+> You are busy.
 
 Good insight:
 
-> There is a tension between commercialization speed and product scope. The product may be drifting from a focused painkiller into a general ERP-style platform.
+> There is a tension between wanting more unstructured time and repeatedly choosing interesting new commitments. The real bottleneck may be selection rather than scheduling.
 
 Question:
 
-> If you had to sell the product tomorrow and could keep only one painful business problem, which problem would still justify buying it?
+> If every new commitment had to replace an existing one, which choices would no longer survive?
 
 ---
 
 ## Example 3 — Unconscious method
 
-Independent past projects repeatedly show:
+Independent decisions repeatedly show:
 
 ```text
-collect
-→ structure
-→ classify
-→ measure
-→ detect
-→ act
+research many options
+→ compare deeply
+→ reduce uncertainty
+→ delay commitment
 ```
 
 Weak output:
 
-> You like structured analysis.
+> You like research.
 
 Better:
 
-> Across unrelated projects, you repeatedly externalize fuzzy judgment into explicit states, thresholds, and triggers. The repeated capability may be **decision-system design**, not merely BI or reporting.
+> Research may be serving two functions at once: improving decisions and postponing commitment. The second function may become costly once the information is already sufficient.
 
 Question:
 
-> What would change if you designed your future projects around the reusable decision logic first, and treated dashboards as only one interface?
+> How would your decisions change if you had to stop researching once the top two options were “good enough”?
 
 ---
 
@@ -124,20 +98,20 @@ Question:
 
 Existing insight:
 
-> You repeatedly reduce ambiguity through classification.
+> You are more consistent when the first action is tiny and obvious.
 
 New evidence:
 
-- risk grading
-- product grading
+- meal preparation succeeds when ingredients are already visible
+- household admin gets done when the document is already open
 
 Bad:
 
-> New insight: you also like grading risks and products.
+> New insight: you also like easy meal prep.
 
 Good:
 
-> The existing classification insight is strengthened by two independent contexts. Its scope may now extend from customer management to a broader decision-design method.
+> These are additional supporting contexts for the same activation-friction insight. The scope may be broader than habits and include everyday task initiation.
 
 ---
 
@@ -145,7 +119,7 @@ Good:
 
 ### First occurrence
 
-> The user uses customer grading.
+> A reading habit stopped because setup became inconvenient.
 
 Classification:
 
@@ -155,7 +129,7 @@ Observation
 
 ### Later
 
-Customer grading + opportunity grading.
+Exercise also became inconsistent when preparation was cumbersome.
 
 Possible:
 
@@ -163,11 +137,11 @@ Possible:
 🌱 Weak Signal
 ```
 
-> You may prefer reducing ambiguity through explicit categories.
+> You may be sensitive to setup friction.
 
 ### Later
 
-Risk grading + product prioritization + sales ranking.
+Language learning, meal prep, and household admin show the same pattern.
 
 Possible:
 
@@ -175,15 +149,11 @@ Possible:
 🌳 Strong Insight
 ```
 
-> You repeatedly convert fuzzy business judgment into explicit states, thresholds, and prioritization rules.
+> When the first action requires preparation, self-directed routines tend to stall; when the environment makes the first action obvious, consistency improves.
 
 ### Later predictive confirmation
 
-A new project independently introduces:
-
-- states
-- thresholds
-- triggers
+A new hobby becomes consistent after the user leaves the required materials visible and ready.
 
 Possible:
 
@@ -191,7 +161,7 @@ Possible:
 🧭 Personal Principle
 ```
 
-> When complexity rises, you tend to externalize repeated judgment into systems rather than asking people to make the same decision from scratch.
+> For self-directed activities, environment design may matter more than motivational intensity.
 
 ---
 
@@ -200,49 +170,91 @@ Possible:
 Past complaints:
 
 ```text
-too much reporting
-can't see the priority
-not actionable
-too fragmented
+too many choices
+I overthink purchases
+I keep comparing
+I am afraid of choosing the wrong one
 ```
 
 Weak:
 
-> You dislike complicated dashboards.
+> You dislike making decisions.
 
 Better:
 
-> The recurring pain may not be dashboard design. It may be **attention allocation**: information is increasing faster than the organization's ability to decide what deserves action.
+> The recurring pain may not be indecision itself. It may be an assumption that one option must be clearly optimal before commitment is justified.
 
 Second-order implication:
 
-> As AI makes report generation cheaper, prioritization and next-action recommendation may become more valuable than reporting itself.
+> More information can actually increase the decision burden once all remaining options are already acceptable.
 
 ---
 
 ## Example 7 — Counterfactual
 
-Past work is customer-centered.
+Past behavior:
+
+The user repeatedly tries to become “more disciplined.”
 
 Counterfactual question:
 
-> What if the customer is not the main object?
+> What if discipline is not the main variable?
 
-Alternative:
+Alternative model:
 
 ```text
-Event
-├── financing
-├── IND / clinical progress
-├── executive change
-├── visit
-├── opportunity
-├── order
-└── after-sales issue
+Behavior
+├── trigger clarity
+├── setup friction
+├── emotional resistance
+├── feedback speed
+└── environmental cues
 ```
 
 Possible insight:
 
-> A customer system could be reinterpreted as an event-driven commercial intelligence system: events change customer state, which triggers recommended actions.
+> Several “discipline problems” may actually be design problems: the environment makes the desired action harder to start than the competing action.
 
-This insight does not simply reuse a prior method; it changes the system's organizing principle.
+This does not simply reuse a prior trick; it changes the explanation of the problem.
+
+---
+
+## Example 8 — Abandoned thread
+
+Past history:
+
+- repeatedly mentions wanting to learn photography
+- buys or saves learning materials
+- returns to the topic every few months
+- never follows a formal course
+
+Weak:
+
+> You should take a photography course.
+
+Better:
+
+> The repeated return to photography suggests the interest itself is stable, while the chosen learning format may be the unstable part.
+
+Question:
+
+> What if the right next step is not “learn photography” but “take one photo every day around a single theme for 30 days”?
+
+---
+
+## Example 9 — Second-order insight
+
+Past behavior:
+
+- adds more productivity apps
+- creates more task lists
+- tracks more goals
+- still feels behind
+
+Possible insight:
+
+> Better capture systems may be increasing the visibility of unfinished work faster than they improve prioritization.
+
+Second-order implication:
+
+> The next improvement may not be another tool for remembering tasks, but a stronger rule for deleting, ignoring, or refusing them.

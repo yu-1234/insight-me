@@ -24,25 +24,24 @@ Do not merely list repetitions. Abstract the shared mechanism.
 Example:
 
 ```text
-collect data
-→ structure
-→ classify
-→ define metrics
-→ detect exceptions
-→ recommend action
+want to start
+→ make a plan
+→ plan becomes too large
+→ delay
+→ restart later
 ```
 
 Possible deeper interpretation:
 
-> The recurring capability may be decision-system design rather than report building.
+> The recurring problem may not be motivation. It may be that planning increases activation cost.
 
 ---
 
-## 2. Cross-Project Connection
+## 2. Cross-Context Connection
 
 Ask:
 
-> Which things were discussed separately but may belong together?
+> Which things were discussed separately but may actually share one mechanism?
 
 Search for:
 
@@ -58,22 +57,21 @@ Prefer combinations that create a genuinely new concept.
 Example:
 
 ```text
-Relationship Graph
+reading habit
 +
-Opportunity Funnel
+exercise habit
 +
-Funding Events
+language learning
 ```
 
 Possible new model:
 
 ```text
-Opportunity Score
+Consistency
 =
-relationship accessibility
-× business fit
-× capital readiness
-× project maturity
+clear trigger
+× tiny first step
+× immediate feedback
 ```
 
 ---
@@ -84,10 +82,10 @@ Look for:
 
 ```text
 Goal ≠ Behavior
-Strategy ≠ Execution
-Desired Speed ≠ Added Complexity
 Stated Priority ≠ Actual Attention
+Desired Simplicity ≠ Added Complexity
 Earlier Belief ≠ Later Belief
+Short-term Choice ≠ Long-term Goal
 ```
 
 Do not automatically call the contradiction a mistake.
@@ -97,13 +95,13 @@ Treat it as a clue.
 Example:
 
 ```text
-Goal: launch quickly
-Behavior: continuously add ERP-scale functionality
+Goal: have more free time
+Behavior: continually adds optional commitments
 ```
 
 Potential insight:
 
-> The product strategy may be drifting from a focused painkiller toward a general management platform.
+> The real conflict may not be time management. It may be difficulty saying no to interesting possibilities.
 
 ---
 
@@ -116,14 +114,13 @@ Ask:
 Example:
 
 ```text
-structure
-→ classify
-→ measure
-→ detect
-→ act
+collect options
+→ compare
+→ reduce uncertainty
+→ delay commitment
 ```
 
-If this repeats independently, it may deserve a name and become a reusable framework.
+If this repeats across unrelated decisions, it may reveal a stable decision strategy.
 
 ---
 
@@ -146,15 +143,15 @@ Where else could that principle apply?
 Example:
 
 ```text
-Customer grading
+making a weekly meal plan
 ↓
-Classification
+pre-deciding choices
 ↓
-Reducing decision complexity
+reducing decision fatigue
 ↓
-Resource allocation
+protecting attention
 ↓
-General decision architecture
+other recurring decisions
 ```
 
 Avoid abstraction unsupported by evidence.
@@ -170,11 +167,12 @@ Ask:
 Example:
 
 ```text
-Customers have different value
+The user sleeps better when evenings are less stimulating
 +
-Resources are limited
+phone use is the main late-evening stimulus
 ↓
-Sales actions should probably also be differentiated
+The useful intervention may be changing the environment,
+not trying harder to "be disciplined."
 ```
 
 Search for conclusions whose consequences were never followed through.
@@ -186,15 +184,15 @@ Search for conclusions whose consequences were never followed through.
 Look for:
 
 - ideas mentioned once and never revisited
-- promising prototypes that stopped
+- habits that worked briefly
 - questions never answered
-- decisions without follow-up
-- strategies not implemented
-- partially built systems
+- experiments stopped without evaluation
+- interests that repeatedly return
+- partially explored decisions
 
 Ask:
 
-> Was this weak, or did attention simply move elsewhere?
+> Was this abandoned because it was weak, or because attention moved elsewhere?
 
 Do not equate abandonment with failure.
 
@@ -207,26 +205,26 @@ Repeated complaints are signals.
 Examples:
 
 ```text
-too complicated
-not clear
-not actionable
-too manual
-too fragmented
-too much reporting
-can't see the priority
+too many choices
+hard to start
+always rushing
+not enough energy
+I keep forgetting
+I research too much
+I lose interest after a week
 ```
 
 Ask:
 
-> What deeper unmet need explains all of these?
+> What deeper unmet need or mechanism explains all of these?
 
 Repeated pain may reveal:
 
-- product opportunity
-- workflow problem
-- missing infrastructure
-- career fit
-- mistaken assumption
+- environmental friction
+- decision overload
+- unrealistic scope
+- missing feedback
+- unexamined assumptions
 
 ---
 
@@ -244,14 +242,14 @@ X
 Example:
 
 ```text
-AI lowers report-production cost
+more productivity tools
 ↓
-more reports are created
+more tasks become visible
 ↓
-attention becomes scarcer
+the feeling of unfinished work increases
 ↓
-value shifts from reporting
-to prioritization and decision recommendation
+the real bottleneck shifts from remembering tasks
+to deciding what not to do
 ```
 
 ---
@@ -263,19 +261,19 @@ Reverse one core assumption.
 Examples:
 
 ```text
-What if customers are not the core object?
-What if events are the core object?
-What if the dashboard disappears?
-What if no salesperson manually enters data?
-What if this had to be sold tomorrow?
-What if only one feature could remain?
+What if the goal is not to become more disciplined?
+What if the habit is too large rather than the user being inconsistent?
+What if the problem is the environment rather than motivation?
+What if doing less improves the result?
+What if one option had to be chosen today?
+What if the user stopped optimizing entirely for a week?
 ```
 
 Use counterfactuals to expose assumptions, not to create fantasy.
 
 ---
 
-## 11. Capability / Identity Pattern
+## 11. Capability Pattern
 
 Only when supported by multiple experiences, ask:
 
@@ -284,20 +282,16 @@ Only when supported by multiple experiences, ask:
 Example:
 
 ```text
-BI
+planning trips
++
+organizing study materials
++
+comparing purchases
 ↓
-decision-system design
+information synthesis under uncertainty
 ```
 
-or:
-
-```text
-report automation
-↓
-organizational knowledge codification
-```
-
-Focus on observable work patterns.
+Focus on observable behavior.
 
 Do not make personality diagnoses.
 
@@ -308,17 +302,17 @@ Do not make personality diagnoses.
 Look for intersections among:
 
 ```text
-what the user is good at
+what the user enjoys
 ×
-what they repeatedly care about
+what repeatedly holds their attention
 ×
-problems they repeatedly encounter
+skills they keep using
 ×
-assets they already built
+problems they repeatedly solve
 ```
 
 Possible result:
 
-> Several independent projects may already form components of one larger product or methodology.
+> Several unrelated interests may share one underlying capability or direction.
 
 Prefer opportunities that are concrete, plausible, and testable.

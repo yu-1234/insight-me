@@ -25,19 +25,19 @@ Two insights are likely duplicates when their core explanatory claim is substant
 
 - wording differs
 - examples differ
-- projects differ
+- situations differ
 - evidence differs
 - abstraction level differs slightly
 
 Example:
 
-> You repeatedly turn fragmented business information into structured decision rules.
+> You often struggle when the first step feels too large.
 
 and:
 
-> You often convert messy business problems into standardized frameworks.
+> You seem more consistent when starting requires very little effort.
 
-These likely share one core claim.
+These likely share one underlying claim about activation cost.
 
 Do not output both as separate discoveries.
 
@@ -94,14 +94,14 @@ Action:
 
 New evidence does not automatically create a new insight.
 
-If customer grading, opportunity grading, product grading, and risk grading all support the same underlying pattern, update the existing insight rather than generating four variants.
+If reading, exercise, and language learning all support the same activation-cost pattern, update the existing insight instead of generating three variants.
 
 Possible update:
 
 ```text
-Evidence: 2 → 4 independent sources
-Confidence: Medium → High
-Scope: Customer management → General business decision-making
+Evidence: 1 → 3 independent contexts
+Confidence: Low → Medium/High
+Scope: One habit → Repeated behavior initiation
 ```
 
 ---
@@ -115,18 +115,17 @@ Example:
 Earlier:
 
 ```text
-A. frequently builds classifications
-B. frequently builds dashboards
-C. frequently creates alerts
+A. plans become too detailed
+B. starting is delayed
+C. simple routines work better
 ```
 
 Deeper interpretation:
 
 ```text
-structure complexity
-→ create observable states
-→ detect changes
-→ trigger decisions
+more preparation
+→ higher activation cost
+→ delayed action
 ```
 
 The deeper insight should absorb the shallow ones.
@@ -141,16 +140,16 @@ Example:
 
 Early:
 
-> The user likes automation.
+> The user avoids difficult tasks.
 
-Later evidence reveals:
+Later evidence reveals two different cases:
 
 ```text
-A. automate repetitive execution
-B. externalize repeated human judgment
+A. avoids tasks with unclear first steps
+B. postpones tasks with emotionally unpleasant outcomes
 ```
 
-If these create different implications, split them.
+If they create different implications, split them.
 
 ---
 
@@ -172,15 +171,15 @@ Example:
 
 Earlier:
 
-> The user prefers simple products.
+> The user prefers routines.
 
 Later:
 
-> The user repeatedly expands products into integrated systems.
+> The user repeatedly abandons rigid schedules but keeps flexible checklists.
 
 Better revision:
 
-> The user appears to prefer simplicity at the interface level while tending toward integration at the architecture level.
+> The user may prefer structure without fixed timing.
 
 ---
 
@@ -210,7 +209,7 @@ A single event, statement, behavior, or decision.
 
 Example:
 
-> The user used customer segmentation in one project.
+> The user stopped one habit after a week.
 
 This is evidence, not a stable insight.
 
@@ -234,7 +233,7 @@ Use hypothesis language:
 
 Example:
 
-> You may prefer reducing complexity by introducing explicit categories.
+> You may be more sensitive to activation cost than to task difficulty itself.
 
 ---
 
@@ -249,13 +248,13 @@ Typical evidence:
 
 Example:
 
-> Classification appears to be a recurring method you use to reduce decision complexity.
+> Reading, exercise, and study attempts all become more consistent when the first step is tiny and obvious.
 
 ---
 
 ## 13. Stage 3 — Strong Insight
 
-A pattern repeatedly supported across time, projects, or domains, with few serious contradictions.
+A pattern repeatedly supported across time, situations, or domains, with few serious contradictions.
 
 Typical evidence:
 
@@ -265,7 +264,7 @@ Typical evidence:
 
 Example:
 
-> You repeatedly convert ambiguous business problems into explicit states, thresholds, and rules.
+> When a desired behavior requires too much setup, you tend to delay it; when the first action is trivial, consistency improves substantially.
 
 ---
 
@@ -276,7 +275,7 @@ A highly stable, repeatedly validated pattern that explains many past decisions 
 Use strict criteria:
 
 - 5+ meaningful pieces of evidence, ideally;
-- multiple domains or long time span;
+- multiple contexts or long time span;
 - survives contradictory evidence;
 - predictive usefulness;
 - later behavior repeatedly confirms it.
@@ -311,19 +310,19 @@ Predictive usefulness
 
 ## 16. Independent evidence
 
-Repeated mentions of the same project count as one project-level source.
+Repeated mentions of the same event count as one source.
 
 ```text
-5 conversations about one customer-grading project
+5 conversations about one failed reading plan
 ≠
 5 independent experiences
 ```
 
 Prefer evidence from:
 
-- different projects
+- different situations
 - different decisions
-- different domains
+- different areas of life
 - different time periods
 - different consequences
 
@@ -354,17 +353,17 @@ Example:
 
 ```text
 Weak Signal:
-"You may prefer classification."
+"You may be sensitive to activation cost."
 ```
 
 Later:
 
 ```text
-customer grading
+reading
 +
-opportunity grading
+exercise
 +
-risk grading
+language study
 ```
 
 → Emerging Pattern.
@@ -372,16 +371,16 @@ risk grading
 Later:
 
 ```text
-product prioritization
+meal planning
 +
-sales ranking
+household admin
 +
-workflow state design
+personal projects
 ```
 
 → Strong Insight.
 
-If later behavior is predicted and confirmed across contexts, it may eventually become a Personal Principle.
+If later behavior is predicted and confirmed in a new context, it may eventually become a Personal Principle.
 
 ---
 
@@ -393,13 +392,13 @@ Example:
 
 Strong Insight:
 
-> You always prefer automation.
+> You always need a tiny first step.
 
-New evidence shows important processes are intentionally left manual.
+New evidence shows the user can begin large tasks easily when a deadline is externally fixed.
 
 Possible refinement:
 
-> You automate repetitive execution but preserve human judgment in high-ambiguity decisions.
+> Activation cost matters most when tasks are self-directed and open-ended.
 
 A system that only promotes insights will become confidently wrong.
 
@@ -437,7 +436,7 @@ Preferred form:
 
 Prediction is one of the strongest maturity tests.
 
-If an insight predicts that the user will independently create states, levels, thresholds, or triggers in a new domain — and later behavior confirms this — maturity should increase significantly.
+If an insight predicts that reducing setup friction will improve consistency in a new habit — and later behavior confirms this — maturity should increase significantly.
 
 ---
 
@@ -518,9 +517,9 @@ The desired progression is:
 ↓
 "You often do X."
 ↓
-"X and Y come from the same underlying method."
+"X and Y come from the same underlying mechanism."
 ↓
-"That method predicts how you approach new problems."
+"That mechanism predicts how you approach new situations."
 ↓
 "Because the pattern is established, here is a new implication you have not explored."
 ```

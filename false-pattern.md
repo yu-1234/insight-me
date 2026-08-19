@@ -2,21 +2,21 @@
 
 ## Input history
 
-The user uses a classification framework once because their manager explicitly required it.
+The user follows a strict morning routine once during a one-week group challenge.
 
-No similar behavior appears elsewhere.
+No similar pattern appears before or after.
 
 ## Expected behavior
 
 Do not infer:
 
-> The user naturally prefers classification.
+> The user naturally prefers strict routines.
 
 At most classify it as an Observation or exploratory Weak Signal.
 
 Consider environmental explanation:
 
-> The method may reflect the project constraint rather than the user's own recurring approach.
+> The behavior may reflect the temporary group structure rather than a stable personal preference.
 
 ## Failure condition
 

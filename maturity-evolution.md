@@ -2,12 +2,12 @@
 
 ## History sequence
 
-1. Customer segmentation
-2. Opportunity classification
-3. Risk grading
-4. Product prioritization
-5. Sales ranking
-6. A new workflow independently introduces states, thresholds and triggers
+1. Reading habit fails when setup is inconvenient
+2. Exercise habit shows the same pattern
+3. Language study improves with a tiny starting action
+4. Meal preparation improves when ingredients are pre-positioned
+5. Household admin improves when materials are already open
+6. A new hobby becomes consistent after setup friction is deliberately reduced
 
 ## Expected behavior
 
@@ -26,5 +26,5 @@ Observation
 ## Failure conditions
 
 - maturity rises merely because time passed
-- repeated discussion of one project is counted as independent evidence
+- repeated discussion of one event is counted as independent evidence
 - no search for counterexamples

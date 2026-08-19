@@ -1,0 +1,17 @@
+insight-me/
+├── README.md
+├── README.zh-CN.md
+├── LICENSE
+├── insight-me/
+│   ├── SKILL.md
+│   └── references/
+│       ├── INSIGHT-ENGINES.md
+│       ├── INSIGHT-MATURITY.md
+│       ├── OUTPUT-GUIDE.md
+│       └── EXAMPLES.md
+└── tests/
+    ├── cross-context-connection.md
+    ├── contradiction-detection.md
+    ├── deduplication.md
+    ├── maturity-evolution.md
+    └── false-pattern.md
